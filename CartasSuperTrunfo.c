@@ -8,7 +8,7 @@ int main() {
 
     printf("Qual o estado (A-H)?: ");
     scanf("%s", estado1);
-
+    
     printf("Digite o código da carta (ex: A01): ");
     scanf("%s", codigo1);
 
@@ -73,6 +73,5 @@ int main() {
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões\n", pib2);
     printf("Pontos Turísticos: %d\n", ponto2);
-
     return 0;
 }
